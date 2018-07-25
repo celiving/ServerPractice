@@ -8,7 +8,7 @@ const handleRequestA = (request, response)=>
     const serverA = http.createServer(handleRequestA);
     
     serverA.listen(PORTa, function(){
-        console.log('the good server is listeningon port'+ PORTa)
+        console.log('the good server is listening on port'+ PORTa)
     });
 
     //--------*-
